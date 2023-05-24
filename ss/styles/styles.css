@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+#my-form{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+#my-form input{
+    width: 100%;
+    margin-right: 30px;
+    padding: 10px;
+    height: 40px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 980px;
+
+}
+
+.container-element{
+    max-width: 300px;
+    width: 300px;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.title{
+    width: 80%;
+    height: 80px;
+    font-weight: 900;
+    margin-top: -20px;
+}
+
+.user-id{
+    text-align: right;    
+}
+
+.el-body{
+    font-weight: 300;
+}
+
+.highlighted{
+    color: red;
+    font-weight: 900;
+    font-size: 1.3em;
+}
